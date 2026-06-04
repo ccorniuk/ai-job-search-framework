@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# User data (never commit personal content)
+# These are the files users populate with their own info
+# Templates in templates/ are fine to commit
+applications/
+*.csv
+!templates/tracker.csv
